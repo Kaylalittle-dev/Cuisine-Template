@@ -1,0 +1,259 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    font-size: 1em;
+}
+
+h1{
+    font-family: 'Prata', serif;
+    font-size: 650%;
+    width: 40%;
+    font-weight: bold;
+}
+
+h2{
+    font-family: 'Prata', serif;
+    font-size: 5em;
+    font-weight: bold;
+}
+h4{
+    color: #FF8800;
+    font-size: 1em;
+    font-weight: 700;
+}
+.container-fluid{
+    padding: 2% 5%;
+}
+
+/* NAVBAR */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Prata', serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 7px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.nav-link:hover{
+    color: #000;
+    font-weight: bold;
+}
+.click:hover{
+    background-color: #FFAA4D;
+}
+hr{
+    width: 54%;
+    margin: 1.2% auto;
+    height: 0;
+    border-top: 3px solid #FF8800;
+}
+
+/* MAIN SECTION */
+
+#main{
+    background-image: url("https://t3.ftcdn.net/jpg/03/06/41/84/360_F_306418444_NxQDy1HoYF4MuYqyu7IXtjXaevPxt5X7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 55em;
+    padding-left: 7%;
+}
+.search-space{
+    height: 40px;
+    width: 400px;
+    padding-left: 10px;
+    font-size: 1em;
+    caret-color: #FF8800;
+}
+
+.search-button{
+    height: 40px;
+    width: 100px;
+    font-size: 1em;
+    background-color: #FF8800;
+    color: #fff;
+    border-radius: 0 12px 12px 0;
+    border-style: none;
+    letter-spacing: 1px;
+}
+.social-media-nums{
+    margin-top: 3%;
+    font-weight: bold;
+}
+.icons-h{
+    font-weight: bold;
+    padding-right: 5%;
+}
+
+/* ABOUT SECTION */
+
+#about{
+    background-image: url("https://media.istockphoto.com/photos/granola-with-yogurt-and-berries-picture-id1168911567?b=1&k=20&m=1168911567&s=170667a&w=0&h=ukrTNCc1NQI8wZ7yuJELI0cZCPG4Up59FRMM3yPeXXc=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5600%;
+    padding: 5% 10% 10% 50%;
+}
+
+.about-button{
+    height: 40px;
+    width: 200px;
+    font-size: 1em;
+    background-color: #FF8800;
+    color: #fff;
+    border-radius: 12px;
+    border-style: none;
+    letter-spacing: 1px;
+}
+
+/* ORDER ONLINE SECTION */
+
+#order-online-now{
+    text-align: center;
+    background-color: #E4EBEE;
+    padding: 5% 7%;
+}
+.food-img{
+    height: 300px;
+    margin: 3% auto 0;
+    object-fit: cover;
+}
+.order-title{
+    padding: 0 3%;
+}
+/* HOURS SECTION */
+
+#opening-hours{
+    text-align: center;
+    padding: 5% 0;
+    background-image: url("https://cdn.pixabay.com/photo/2018/08/19/15/24/cup-3616873_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.phone-num{
+    color: #FF8800;
+    font-family: 'Prata', serif;
+    font-size: 1.8em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.hour-table{
+    font-weight: bold;
+}
+.times{
+    font-family: 'Prata', serif;
+    font-size: 1.2em;
+}
+video{
+    width: 950px;
+}
+/* TESTIMONIAL SECTION */
+
+#testimonials{
+    text-align: center;
+    background-color: #FDFEFF;
+    padding: 5% 0;
+    margin: 0 5%;
+}
+.testimonial-image{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.testimonial-text{
+    font-size: 1.5em;
+    width: 60%;
+    margin: 0 auto;
+}
+.carousel-control-prev-icon, .carousel-control-next{
+    filter: invert(100%);
+}
+.name{
+    padding-top: 2%;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width:1164px) and (min-width:897px){
+    /* ELEMENTS */
+    h1{
+        font-size: 500%;
+    }
+    h2{
+        font-size: 300%;
+    }
+    .search-space{
+        width: 300px;
+    }
+    /* ABOUT SECTION */
+    #about{
+        background-color: #EDEAE7;
+        background-image: url("https://cdn.pixabay.com/photo/2021/02/14/12/46/strawberries-6014361_960_720.jpg");
+    }
+    .about-us{
+        background-color: #fff;
+        padding: 5% auto 10%;
+    }
+    /* HOURS SECTION */
+    video{
+        width: 650px;
+    }
+    
+}
+
+@media (max-width:896px){
+    body{
+        margin: 0 auto;
+    }
+    h1{
+        font-size: 300%;
+        width: 60%;
+    }
+    h2{
+        font-size: 200%;
+    }
+    .search-space{
+        width: 200px;
+    }
+    .container-fluid{
+        padding: 2% 2% 2% 15%;
+    }
+
+    /* ABOUT SECTION */
+    #about{
+    background-image: url("https://cdn.pixabay.com/photo/2017/09/10/01/37/coffee-2734137_960_720.jpg");
+    padding: 0;
+    color: #000;
+    font-weight: bold;
+    }
+
+    /* HOURS SECTION */
+    video{
+        width: 400px;
+    }
+
+    /* TESTIMONIALS */
+    .testimonial-text{
+        font-size: 1em;
+        width: 60%;
+        margin: 0 auto;
+    }
+    .testimonial-image{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+}
